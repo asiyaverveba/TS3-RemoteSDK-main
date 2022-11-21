@@ -1,0 +1,23 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_find_devices"
+        android:orderInCategory="100"
+        android:title="Find devices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_start_service"
+        android:orderInCategory="100"
+        android:title="Start service"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_connect_local"
+        android:orderInCategory="100"
+        android:title="Connect local"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>

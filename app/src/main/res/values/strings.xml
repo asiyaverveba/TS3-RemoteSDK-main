@@ -1,0 +1,311 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="app_name">Tapas Site Demo</string>
+    <string name="title_activity_stationary">StationaryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login1">Sign in</string>
+    <string name="latitudeBabel">Latitude</string>
+    <string name="longitudeBabel">Longitude</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">USERNAME</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="login_header1">Tapas</string>
+    <string name="login_header2">site</string>
+
+
+    <!-- home screen -->
+    <string name="maps">Maps</string>
+    <string name="ssv">SSV</string>
+    <string name="technologylock">Technology Lock</string>
+    <string name="capture">Capture</string>
+    <string name="survey">Survey</string>
+    <string name="filemanager">File Manager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="crash_toast_text">App crashed, but a report has been sent!</string>
+    <string name="support">Contact Tapas Support</string>
+
+    <string name="Stationaryresult">STATIONARY TEST RESULTS</string>
+    <string name="StationarySummaryResult">Summary Results</string>
+
+    <string name="mobility">Mobility</string>
+    <string name="testtype">Functional Test</string>
+    <string name="mobilityresults">Mobility results</string>
+    <string name="selectsite">Select Site Id</string>
+    <string name="network_lock">Network Locking</string>
+    <string name="network_lock2">Locking</string>
+
+    <!-- survey questions-->
+    <string name="question1">Check if the site is accesible</string>
+    <string name="question2">Check if the all sectors in the \n site have passed </string>
+    <string name="question3">Check if the site had any alarms</string>
+    <string name="question4">Select if site is tower top</string>
+    <string name="question5">Select if site is tower bottom</string>
+    <string name="question6">Select one of the following</string>
+
+    <string name="intro_action_retry">Retry</string>
+
+    <string name="status_action_refresh">Refresh</string>
+    <string name="status_action_force">Force</string>
+    <string name="status_action_reset">Reset</string>
+    <string name="status_action_help">Help</string>
+
+    <string name="force_action_apply">Apply</string>
+
+    <string name="peak_ul">Peak UL iPERF</string>
+    <string name="peak_dl">Peak DL iPERF</string>
+    <string name="avg_ul">Avg UL iPERF</string>
+    <string name="avg_dl">Avg DL iPERF</string>
+    <string name="avg_ping_time">Avg Ping iPERF</string>
+    <string name="Email">Email</string>
+    <string name="Browsing">Browsing</string>
+    <string name="Video">Video </string>
+    <string name="CallMOI">EARFCN </string>
+    <string name="CallMTI">CELLID</string>
+
+    <string name="hint_yes">Yes</string>
+    <string name="hint_no">No</string>
+    <string name="hint_ok">OK</string>
+    <string name="hint_cancel">Cancel</string>
+
+    <string name="hint_site_not_found">Site Not Found!!</string>
+    <string name="hint_do_you_want">Do you want to add site to the database?</string>
+    <string name="hint_submit_site">Submit Site</string>
+    <string name="hint_site_name">Site Name</string>
+    <string name="hint_sector_name_pci">Sector Name PCI (separate by commas)</string>
+    <string name="hint_channel">Channel</string>
+    <string name="hint_azimuth">Azimuth (separate by commas)</string>
+    <string name="hint_add_site_location">Site Location</string>
+
+    <string name="hint_site_added">Site added!</string>
+
+    <string name="error_site_name">Please enter Site Name</string>
+    <string name="error_sector_name_pci">Please enter Sector Name PCI</string>
+    <string name="error_channel">Please enter Channel</string>
+    <string name="error_azimuth">Please enter Azimuth</string>
+    <string name="error_select_lat_lng">Please select Latitude and Longitude</string>
+
+    <string name="hint_stationary">Stationary</string>
+    <string name="title_activity_test_type">TestTypeActivity</string>
+    <string name="select_type">Select the type of test</string>
+
+
+    <string name="indoor_stat">Indoor Stationary</string>
+    <string name="indoor_mob">Indoor Mobility</string>
+    <string name="indoor">Indoor</string>
+    <string name="outdoor_stat">Outdoor Stationary</string>
+    <string name="outdoor_mob">Outdoor Mobility</string>
+    <string name="outdoor">Outdoor</string>
+
+    <string name="hint_site_location">1. Site Location</string>
+    <string name="hint_location_indoor">Indoor</string>
+    <string name="hint_location_outdoor">Outdoor</string>
+
+    <string name="hint_select_one_of_the_following">3. Select one of the following</string>
+    <string name="hint_rrh_location">2. RRH Location</string>
+    <string name="hint_backhaul">3. Backhaul</string>
+    <string name="hint_select">Select</string>
+    <string name="hint_tower_top">Tower Top</string>
+    <string name="hint_tower_bottom">Tower Bottom</string>
+
+    <string name="hint_select_one_of_the_following_backhauk">4. Select one of the following</string>
+    <string name="hint_fiber">Fiber</string>
+    <string name="hint_t1">T1</string>
+
+    <string name="hint_site_is_accessible">4. Is site accessible</string>
+    <string name="hint_any_alarms">5. Does the site have alarms?</string>
+    <string name="hint_sectors_online">6. Are all sectors online?</string>
+
+    <string name="hint_technologies_on_site">7. Technologies on Site</string>
+    <string name="hint_lte_1c">LTE 1C</string>
+    <string name="hint_lte_2c">LTE 2C</string>
+    <string name="hint_umts_1c">UMTS 1C</string>
+    <string name="hint_umts_2c">UMTS 2C</string>
+    <string name="hint_gsm">GSM</string>
+
+    <string name="hint_delete_question">Delete the question?</string>
+
+    <string name="hint_edit_question">Edit the Question</string>
+
+    <string name="hint_update">Update</string>
+    <string name="error_question">Please enter question</string>
+    <string name="hint_project_id">Project ID</string>
+
+    <string name="hint_site_id">Site ID</string>
+
+    <string name="hint_search_site">SERACH SITE</string>
+    <string name="hint_login">Login</string>
+    <string name="hint_submit">Submit</string>
+    <string name="hint_capture">Capture</string>
+    <string name="empty_spaces">\t\t\t\t\t\t\t  </string>
+    <string name="hint_file_uploads">File Uploads</string>
+    <string name="hint_upload_selected_file">Upload Selected File</string>
+
+    <string name="hint_upload_files">Upload Files</string>
+    <string name="hint_upload_results">Upload Results</string>
+    <string name="hint_mobility">Mobility</string>
+    <string name="hint_from_date">From Date</string>
+    <string name="hint_to_date">To Date</string>
+    <string name="hint_clear_logs">Clear Logs</string>
+    <string name="hint_clear_photos">Clear Photos</string>
+    <string name="hint_clear_all_memory">Clear All Memory</string>
+    <string name="hint_storage_clean_up">Storage Clean Up</string>
+    <string name="hint_warning">Warning</string>
+    <string name="hint_there_are_Some">There are some files not uploaded on server. Do you want to upload these files on server.</string>
+
+    <string name="hint_individual_tests">Individual Tests</string>
+    <string name="hint_carrier_aggregation">Carrier Aggregation</string>
+
+    <string name="hint_ca_test_results">CA Test Results</string>
+    <string name="hint_carrier_aggregation_test">Carrier Aggregation Test</string>
+    <string name="hint_volte_mo_test">VoLTE MO Test</string>
+    <string name="hint_volte_mo_results">VoLTE MO Test Results</string>
+    <string name="hint_volte_test">VoLTE Test</string>
+    <string name="hint_site_id_">SITE ID</string>
+    <string name="hint_sector_id">SECTOR ID</string>
+
+    <string name="hint_channel_cap">CHANNEL</string>
+    <string name="hint_temp">TEMP.</string>
+    <string name="hint_agl">AGL</string>
+    <string name="hint_pci">PCI</string>
+    <string name="hint_rsrp">RSRP</string>
+    <string name="hint_rsrq">RSRQ</string>
+    <string name="hint_sinr">SINR</string>
+    <string name="hint_cid">CID</string>
+    <string name="hint_ca_enabled">CA ENABLED</string>
+    <string name="hint_ue_category">UE CATEGORY</string>
+    <string name="hint_band_supported">BAND SUPPORTED</string>
+    <string name="hint_mcs_tb0">MCS TB0</string>
+    <string name="hint_mcs_tb1">MCS TB1</string>
+    <string name="hint_rx_antenna">RX ANTENNA</string>
+    <string name="hint_tx_antenna">TX ANTENNA</string>
+    <string name="hint_primary_pci">PRIMARY PCI</string>
+    <string name="hint_primary_earfcn">PRIMARY EARFCN</string>
+    <string name="hint_secondary_pci">SECONDARY PCI</string>
+    <string name="hint_secondary_earfcn">SECONDARY EARFCN</string>
+    <string name="hint_aggregated_throughput">AGGREGATED DL THROUGHPUT</string>
+    <string name="pdsch_throughput">PEAK PDSCH THROUGHPUT</string>
+    <string name="hint_take_screenshot">Take Screenshot</string>
+    <string name="hint_rssi">RSSI</string>
+    <string name="hint_cinr">CINR</string>
+
+    <string name="hint_volte_enabled">VoLTE Enabled</string>
+    <string name="hint_mos_score_pcap_results">MOS Score shown on Dashboard</string>
+    <string name="hint_modulation_technique">Modulation Technique</string>
+    <string name="hint_number_antennas">Number of Rx/Tx Antennas</string>
+
+
+    <string name="hint_cell_information">Cell Information</string>
+    <string name="hint_enter_valid_username">Enter Valid Username</string>
+    <string name="hint_you_must_be_connected">You must be connected to Data Connectivity in order to use this application</string>
+
+    <string name="hint_is_available_for_update"> is available for Update. Please wait while we are updating. After update please re-launch the Tapas application</string>
+    <string name="hint_csv_file_download_issue">CSV File download issue</string>
+    <string name="hint_files_are_missing">Files are missing. Please contact TAPAS Support</string>
+    <string name="hint_uplink_file_is_missing">Uplink File is missing. Please contact TAPAS Support</string>
+    <string name="hint_some_column_or_values_are_missing">Some column or values are missing in testseq. Please reverify before testing!</string>
+    <string name="hint_insufficient_disk_space">Insufficient disk space.Exiting</string>
+    <string name="hint_lte_mode_or_wcdma_mode">LTE MODE or WCDMA MODE or GSM MODE debug is enabled. Both should be disabled in Release build. Are you sure you want this build?</string>
+    <string name="hint_ul_test_completed">UL Test Completed</string>
+    <string name="hint_no_site_available_for_matching">No site Available for matching EARFCN Call Tapas Support</string>
+    <string name="hint_device_is_running_in_low_memory">Device is running in low memory Please Manually cleanup your Storage or call TAPAS support</string>
+    <string name="hint_cross_feeder_has_been">Cross feeder has been started</string>
+    <string name="hint_cross_feeder_test_completed">Cross feeder test has been completed</string>
+    <string name="hint_test_has_been_stopped">Test has been stopped</string>
+    <string name="hint_unable_to_read_csv">Unable to Read csv</string>
+    <string name="hint_connect_timeout_exception">Connection timeout exception, please check internet connection</string>
+    <string name="hint_url_txt_file_is_missing">url.txt File is missing. Please contact TAPAS Support</string>
+    <string name="hint_press_yes_or_no">Press YES or NO</string>
+    <string name="hint_connection_issue">Connection issue</string>
+    <string name="hint_connecting_to_server">Connecting to server</string>
+    <string name="hint_please_wait">Please wait…</string>
+    <string name="hint_processing_data">Processing Data</string>
+    <string name="hint_initiliasing_test">Initiliasing Test...</string>
+    <string name="hint_moving_files">Moving files...</string>
+    <string name="hint_uploading_zip">Uploading Zip…</string>
+    <string name="hint_uploading_csv">Uploading CSV…</string>
+    <string name="hint_uploading_data">Uploading Data…</string>
+    <string name="hint_compressing_dlf">Compressing DLF…</string>
+    <string name="hint_moving_dlf">Moving DLF…</string>
+    <string name="hint_compressing_qmdl">Compressing QMDL…</string>
+    <string name="hint_start_Test">Start Test</string>
+    <string name="hint_uploading_dlf_zip">Uploading DLF zip…</string>
+    <string name="hint_cross_feeder">Cross feeder</string>
+    <string name="hint_test_files_are_not_uploaded">Test files are not uploaded to server due to connection problem</string>
+    <string name="hint_please_retest">Please Re-test</string>
+    <string name="hint_calculating_results">Calculating Results…</string>
+    <string name="hint_upload_has_been_started">Upload has been started</string>
+    <string name="hint_enter_cw_for_clockwise">Enter CW for clockwise or CCW for counter</string>
+    <string name="hint_mobility_test_direction">Mobility Test Direction</string>
+    <string name="hint_test_is_still_in_progress_do_you">Test is still in progress. Do you really want to exit?</string>
+    <string name="hint_pass">PASS</string>
+    <string name="hint_device_is_running_in_low_memory_please_manually">Device is running in low memory. Please Manually cleanup your Storage or call TAPAS support</string>
+    <string name="hint_memory_cleanup">Memory Cleanup</string>
+    <string name="hint_as_the_current_site_is">As The current site is</string>
+    <string name="hint_site_information">Site Information</string>
+    <string name="hint_do_you_want_sa_test_on_site">Do you want SA test on site</string>
+    <string name="hint_message_no_four">Message No: 004</string>
+    <string name="hint_message_no_three">Message No: 003</string>
+    <string name="hint_the_site_list_is_empty">The site list is empty</string>
+    <string name="hint_no_site_list">No Site List</string>
+    <string name="hint_suba_connecting_please_wait">Scuba connecting, please wait…</string>
+    <string name="hint_no_site_selected">No Site Selected</string>
+    <string name="hint_please_select_one_site">Please Select One Site To Perform SA test…</string>
+    <string name="hint_please_contact_tapas_support">Please contact Tapas support…</string>
+    <string name="hint_ftp_connection_problem">Ftp Connection Problem</string>
+    <string name="hint_there_were_issues_during_the_test">There were issues during the test</string>
+    <string name="hint_compressing_files">Compressing files…</string>
+    <string name="hint_the_current_plots_are_shown_redrive">The current plots are shown on dashboard. Do you want to redrive?</string>
+    <string name="hint_redrive">Redrive</string>
+    <string name="hint_all_three_pci_are_not_captured">All 3 PCI are not captured , Results cannot be determined</string>
+    <string name="hint_the_current_plots_are_shown">The current plots are shown on dashboard.</string>
+    <string name="hint_currently_we_are_not_able_to_connect">currently we are not able to connect to server. Please redrive after some time</string>
+    <string name="hint_do_you_want_to_start_uploading_file">Do you want to start uploading files?</string>
+    <string name="hint_test_has_been_completed">Test has been completed</string>
+    <string name="hint_lte_required">Lte Required</string>
+    <string name="hint_lte_network_required_to">Lte network required to perform test</string>
+    <string name="hint_RF_information">RF Information</string>
+    <string name="mexico_lock">Mexico Locking</string>
+    <string name="tapas_lock">Tapas Locking</string>
+
+    <string name="recovery_alert"> Are you sure you want to recover this device? If yes, please press the Recover button below else press the back button </string>
+    <string-array name="arrayTowerLocation">
+        <item name="spinner_default">@string/hint_select</item>
+        <item name="spinner_top">@string/hint_tower_top</item>
+        <item name="spinner_bottom">@string/hint_tower_bottom</item>
+    </string-array>
+    <string-array name="arrayTowerBackHaul">
+        <item name="spinner_default">@string/hint_select</item>
+        <item name="spinner_top">@string/hint_fiber</item>
+        <item name="spinner_bottom">@string/hint_t1</item>
+    </string-array>
+</resources>

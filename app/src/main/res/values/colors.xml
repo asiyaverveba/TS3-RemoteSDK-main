@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorDisable">#D3D3D3</color>
+    <color name="top_bar_primary">#3d566d</color>
+    <color name="colorPrimaryDark">#283847</color>
+    <color name="colorAccent">#9ee1e1e1</color>
+    <color name="circle_bg">#13acca</color>
+    <color name="bg_home">#4b4b4b</color>
+    <color name="white">#ffffff</color>
+    <color name="white_transparant">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="light_gry">#dedede</color>
+    <color name="red">#ff0000</color>
+    <color name="bluebackground">#3090C7</color>
+    <color name="lightgray">#6D7B8D</color>
+
+    <color name="sector_a">#42c2d5</color>
+    <color name="sector_b">#366db2</color>
+    <color name="sector_c">#d58b42</color>
+    <color name="sector_d">#ff7200</color>
+
+    <color name="pass_green">#43A109</color>
+    <color name="fail_red">#E81632</color>
+    <color name="warning_yellow">#d0ae01</color>
+    <color name="pass_green1">#84f1b5</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Gray_DarkGray1">#A9A9A9</color>
+    <color name="Gray_DarkGray">#2F4F4F</color>
+    <color name="Gray_DimGray">#696969</color>
+    <color name="Gray_LightGray">#e8e8e8</color>
+    <color name="Gray_LightSlateGray">#778899</color>
+    <color name="Gray_SlateGray">#708090</color>
+    <color name="fail_red1">#ff0000</color>
+    <color name="default_case">#6D7B8D</color>
+    <color name="warning_yellow1">#ffde00</color>
+    <color name="bgtrans">#BF522385</color>
+    <color name="purple_transparent">#aa432677</color>
+    <color name="purple">#432677</color>
+    <color name="button_back">#4e00ff</color>
+    <color name="bg_testprogress_layout">#340465</color>
+    <color name="blue">#4e00ff</color>
+
+    <color name="dark_gry">#808080</color>
+    <color name="buttonbg1">#0024ff</color>
+    <color name="buttonbg2">#522385</color>
+    <color name="selectbg">#23014c</color>
+    <color name="bgtrans1">#BF23014c</color>
+    <color name="green">#008000</color>
+
+    <color name="pci_red">#FF0000</color>
+    <color name="pci_blue">#2196F3</color>
+    <color name="pci_purple">#D500F9</color>
+
+    <color name="mainbackcolor">#041126</color>
+    <color name="middlebackground">#0a2857</color>
+    <color name="faded_blue">#3e5273</color>
+    <color name="txtboxback">#142a4d</color>
+    <color name="outline">#2f63bd</color>
+</resources>

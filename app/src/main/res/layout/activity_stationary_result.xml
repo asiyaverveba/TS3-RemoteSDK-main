@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tapas_bg"
+    tools:context=".StationaryResultActivity">
+
+    <TextView
+        android:id="@+id/max_dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:text="Max Dl" />
+
+    <TextView
+        android:id="@+id/max_dl_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="max dl result" />
+
+    <TextView
+        android:id="@+id/avg_dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/max_dl"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Avg DL" />
+
+    <TextView
+        android:id="@+id/avg_dl_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/max_dl_res"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="avg dl result" />
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/pingresponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avg_dl"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Ping Response time" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/pingresponsetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/avg_dl"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="pingresponsetime" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/max_ul"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/max_dl"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="Max UL" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/max_ul_res"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_below="@+id/max_dl_res"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:text="max ul result" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/avg_ul"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/max_ul"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="Avg UL" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/avg_ul_res"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_below="@+id/max_ul_res"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="Avg ul result" />-->
+</RelativeLayout>

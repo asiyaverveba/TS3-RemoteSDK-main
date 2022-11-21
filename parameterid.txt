@@ -1,0 +1,11 @@
+BAND 
+ <parameter id="20" name="Band ID" systems="GSM,UMTS,CDMA,AMPS,EVDO,LTE,5G,TDMA" type="string"/>
+ 
+ umts
+ <parameter id="10006" name="Cell ID" systems="UMTS" type="int" format="cellid_gsm">
+ 
+ lte
+  <parameter id="70084" max="268435455" min="0" name="E-UTRAN Cell ID" short_name="E-UTRAN Cell ID" systems="LTE" type="int" store_all="true" format="cellid_lte">
+   
+    
+ 

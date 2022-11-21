@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Tests"
+        android:layout="@layout/prefs_screen_title">
+
+        <EditTextPreference
+            android:title="Duration"
+            android:summary="Set duration for single test"
+            android:dialogTitle="Set test duration (secs)"
+            android:key="test_duration"
+            android:inputType="number"
+            android:layout="@layout/prefs_screen_title_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Call"
+        android:layout="@layout/prefs_screen_title">
+
+        <EditTextPreference
+            android:title="Number"
+            android:summary="Set number for phone call"
+            android:dialogTitle="Set call number"
+            android:key="call_number"
+            android:inputType="phone"
+            android:layout="@layout/prefs_screen_title_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

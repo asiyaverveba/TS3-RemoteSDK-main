@@ -1,0 +1,380 @@
+	Line 294:     <parameter id="20" name="Band ID" systems="GSM,UMTS,CDMA,AMPS,EVDO,LTE,5G,TDMA" type="string"/>
+	Line 296:     <parameter id="22" name="iPerf Bandwidth" short_name="iPerf BW" systems="*" type="int" unit="bps" group="Tests"/>
+	Line 333:     <parameter id="10010" max="" min="" name="Band" size="20" systems="UMTS" type="string" unit="">
+	Line 518:     <parameter id="10105" name="Sub-Band Class" short_name="Sub-Band Class" systems="UMTS" type="string"/>
+	Line 518:     <parameter id="10105" name="Sub-Band Class" short_name="Sub-Band Class" systems="UMTS" type="string"/>
+	Line 578:     <parameter id="20003" name="Band" short_name="Band" size="20" systems="CDMA" type="string">
+	Line 578:     <parameter id="20003" name="Band" short_name="Band" size="20" systems="CDMA" type="string">
+	Line 720:     <parameter id="20106" name="Sub-Band Class" short_name="Sub-Band Class" systems="CDMA" type="string"/>
+	Line 720:     <parameter id="20106" name="Sub-Band Class" short_name="Sub-Band Class" systems="CDMA" type="string"/>
+	Line 761:     <parameter id="30001" name="Band" size="20" systems="GSM" type="string" unit="MHz">
+	Line 810:     <parameter id="30031" name="Neighbor Band" parent="30029" short_name="Band" systems="GSM" type="string_array"/>
+	Line 810:     <parameter id="30031" name="Neighbor Band" parent="30029" short_name="Band" systems="GSM" type="string_array"/>
+	Line 818:         <parameter id="30037" name="BA Band" short_name="Band" systems="GSM" type="string_array" store_all="true"/>
+	Line 818:         <parameter id="30037" name="BA Band" short_name="Band" systems="GSM" type="string_array" store_all="true"/>
+	Line 836:     <parameter id="30048" name="Trace BA Band" short_name="Band" systems="GSM" type="string_array"/>
+	Line 836:     <parameter id="30048" name="Trace BA Band" short_name="Band" systems="GSM" type="string_array"/>
+	Line 901:     <parameter id="30107" name="Sub-Band Class" short_name="Sub-Band Class" systems="GSM" type="string"/>
+	Line 901:     <parameter id="30107" name="Sub-Band Class" short_name="Sub-Band Class" systems="GSM" type="string"/>
+	Line 926:         <!-- <parameter id="210003" name="Bandwidth" systems="DMR" type="int_array" storage="scanner" /> -->
+	Line 937:         <!-- <parameter id="211003" name="Bandwidth" systems="P25" type="int_array" storage="scanner" />-->
+	Line 971:         <!-- <parameter id="212003" name="Bandwidth" systems="TETRA" type="int_array" storage="scanner" /> -->
+	Line 984:     <parameter id="60003" name="Band" short_name="Band" size="20" systems="EVDO" type="string">
+	Line 984:     <parameter id="60003" name="Band" short_name="Band" size="20" systems="EVDO" type="string">
+	Line 1106:     <parameter id="70006" max="20" min="1" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="LTE" type="real" unit="MHz">
+	Line 1106:     <parameter id="70006" max="20" min="1" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="LTE" type="real" unit="MHz">
+	Line 1109:     <parameter id="70007" max="20" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="LTE" type="real" unit="MHz">
+	Line 1109:     <parameter id="70007" max="20" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="LTE" type="real" unit="MHz">
+	Line 1127:     <parameter id="70018" name="Band" short_name="Band" size="20" systems="LTE" type="string">
+	Line 1127:     <parameter id="70018" name="Band" short_name="Band" size="20" systems="LTE" type="string">
+	Line 1264:         <parameter id="70208" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1264:         <parameter id="70208" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1266:         <parameter id="70206" max="20" min="1" name="Bandwidth Downlink" short_name="BW DL" systems="LTE" type="real_array" unit="MHz"/>
+	Line 1296:     <parameter id="70104" name="Wideband CQI CW0" short_name="Wideband CQI CW0" systems="LTE" type="int">
+	Line 1296:     <parameter id="70104" name="Wideband CQI CW0" short_name="Wideband CQI CW0" systems="LTE" type="int">
+	Line 1299:     <parameter id="70105" name="Wideband CQI CW1" short_name="Wideband CQI CW1" systems="LTE" type="int">
+	Line 1299:     <parameter id="70105" name="Wideband CQI CW1" short_name="Wideband CQI CW1" systems="LTE" type="int">
+	Line 1327:         <parameter id="70211" name="PDSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1327:         <parameter id="70211" name="PDSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1373:         <parameter id="70210" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1373:         <parameter id="70210" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1406:         <parameter id="70213" name="PUSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1406:         <parameter id="70213" name="PUSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1479:         <parameter id="70224" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1479:         <parameter id="70224" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1481:         <parameter id="70226" max="20" min="1" name="Bandwidth Downlink" short_name="BW DL" systems="LTE" type="real_array" unit="MHz"/>
+	Line 1539:         <parameter id="71061" name="Sub Bands Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1540:         <parameter id="71062" name="Sub Band Channel Condition" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1541:         <parameter id="71063" name="Sub Band ECQI 1st Layer Cl" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1542:         <parameter id="71064" name="Sub Band ECQI 1st Layer Ol" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1543:         <parameter id="71065" name="Sub Band ECQI 2nd Layer Cl1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1544:         <parameter id="71066" name="Sub Band ECQI 2nd Layer Cl2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1545:         <parameter id="71067" name="Sub Band ECQI 2nd Layer Ol1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1546:         <parameter id="71068" name="Sub Band ECQI 2nd Layer Ol2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1547:         <parameter id="71069" name="Sub Band Est Tput 1st Layer Cl" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1548:         <parameter id="71070" name="Sub Band Est Tput 1st Layer Ol" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1549:         <parameter id="71071" name="Sub Band Est Tput 2nd Layer Cl1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1550:         <parameter id="71072" name="Sub Band Est Tput 2nd Layer Cl2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1551:         <parameter id="71073" name="Sub Band Est Tput 2nd Layer Ol1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1552:         <parameter id="71074" name="Sub Band Est Tput 2nd Layer Ol2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1553:         <parameter id="71075" name="Sub Band RF Paths" systems="LTE" type="null" storage="scanner" ui="true"/>
+	Line 1554:         <parameter id="71076" name="Sub Band RF Paths Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1555:         <parameter id="71077" name="Sub Band RF Path Idx" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1556:         <parameter id="71078" name="Sub Band RF Path RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1557:         <parameter id="71079" name="Sub Band RF Path RSRQ" systems="LTE" type="real_array" unit="dB" min="-20" max="0" storage="scanner" ui="true"/>
+	Line 1558:         <parameter id="71080" name="Sub Band RF Path SINR" systems="LTE" type="real_array" unit="dB" min="-20" max="30" storage="scanner" ui="true"/>
+	Line 1575:         <parameter id="71097" name="Sub Band RF Path RSSI" systems="LTE" type="real_array" storage="scanner" ui="true"/>
+	Line 1580:         <parameter id="71102" name="Sub Band Config Start" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1581:         <parameter id="71103" name="Sub Band Config Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1582:         <parameter id="71104" name="Sub Band Config Size" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1587:         <parameter id="71109" name="RSSI Bandwidth" systems="LTE" type="real_array" unit="MHz" storage="scanner" ui="true"/>
+	Line 1609:         <parameter id="71130" name="Sub Band Est Tput Layer L2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1610:         <parameter id="71131" name="Sub Band Est Tput Layer L3" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1611:         <parameter id="71132" name="Sub Band Est Tput Layer L4" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1612:         <parameter id="71133" name="Sub Band ECQI L3 Cli 01" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1613:         <parameter id="71134" name="Sub Band ECQI L3 Cli 02" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1614:         <parameter id="71135" name="Sub Band ECQI L3 Cli 03" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1615:         <parameter id="71136" name="Sub Band ECQI L4 Cli 01" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1616:         <parameter id="71137" name="Sub Band ECQI L4 Cli 02" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1617:         <parameter id="71138" name="Sub Band ECQI L4 Cli 03" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1765:     <parameter id="71010" name="Sub Bands" systems="LTE" type="table" table_size="10" storage="scanner">
+	Line 1770:         <parameter id="71014" name="Sub Band Index" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1861:         <parameter id="73003" name="Resolution Band Width" systems="LTE" type="real_array" unit="dB" storage="scanner"/>
+	Line 1919: 	<parameter id="80027" name="Band" systems="Wi-Fi" type="string"/>
+	Line 1926:         <parameter id="81002" name="Bandwidth" systems="Wi-Fi" type="int_array" storage="scanner"/>
+	Line 1934:         <parameter id="81010" name="Band" systems="Wi-Fi" type="int_array" storage="scanner" ui="true"/>
+	Line 2003:     <parameter id="140003" name="Band Code" systems="*" type="int" storage="scanner"/>
+	Line 2004:     <!-- <parameter id="140004" name="Band Name" systems="*" type="string" storage="scanner"/> NOTE: Retired, use BandId = 20 -->
+	Line 2004:     <!-- <parameter id="140004" name="Band Name" systems="*" type="string" storage="scanner"/> NOTE: Retired, use BandId = 20 -->
+	Line 2019:     <parameter id="140013" name="Band Id Number" short_name="Band Id" systems="*" type="int" storage="scanner"/>
+	Line 2019:     <parameter id="140013" name="Band Id Number" short_name="Band Id" systems="*" type="int" storage="scanner"/>
+	Line 2033:     <parameter id="111002" name="Band" systems="GSM,UMTS,CDMA,EVDO,LTE" type="string_array" storage="scanner"/>
+	Line 2042:         <parameter id="120004" name="Resolution Bandwidth" systems="GSM,UMTS,CDMA,EVDO,LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 2057:         <parameter id="130004" name="Resolution Bandwidth" systems="GSM,UMTS,CDMA,EVDO,LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 2096:     <parameter id="180006" name="Band" short_name="Band" size="20" systems="5G" type="string"/>
+	Line 2096:     <parameter id="180006" name="Band" short_name="Band" size="20" systems="5G" type="string"/>
+	Line 2133:     <parameter id="180023" name="Wideband CQI" short_name="Wideband CQI" systems="5G" type="int">
+	Line 2133:     <parameter id="180023" name="Wideband CQI" short_name="Wideband CQI" systems="5G" type="int">
+	Line 2282:     <parameter id="180071" max="800" min="5" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="5G" type="real" unit="MHz">
+	Line 2282:     <parameter id="180071" max="800" min="5" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="5G" type="real" unit="MHz">
+	Line 2285:     <parameter id="180072" max="800" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="5G" type="real" unit="MHz">
+	Line 2285:     <parameter id="180072" max="800" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="5G" type="real" unit="MHz">
+	Line 2293:     <parameter id="180077" name="BWP Bandwidth DL" short_name="BWP Bandwidth DL" systems="5G" type="int" unit="kHz"/>
+	Line 2293:     <parameter id="180077" name="BWP Bandwidth DL" short_name="BWP Bandwidth DL" systems="5G" type="int" unit="kHz"/>
+	Line 2294:     <parameter id="180078" name="BWP Bandwidth UL" short_name="BWP Bandwidth UL" systems="5G" type="int" unit="kHz"/>
+	Line 2294:     <parameter id="180078" name="BWP Bandwidth UL" short_name="BWP Bandwidth UL" systems="5G" type="int" unit="kHz"/>
+Search "band" (105 hits in 1 file of 1 searched)
+  E:\Sdk\echo-core-sdk-apk-v3.2.43\RemoteSDK\RemoteSDK\parameters.config (105 hits)
+	Line 294:     <parameter id="20" name="Band ID" systems="GSM,UMTS,CDMA,AMPS,EVDO,LTE,5G,TDMA" type="string"/>
+	Line 296:     <parameter id="22" name="iPerf Bandwidth" short_name="iPerf BW" systems="*" type="int" unit="bps" group="Tests"/>
+	Line 333:     <parameter id="10010" max="" min="" name="Band" size="20" systems="UMTS" type="string" unit="">
+	Line 518:     <parameter id="10105" name="Sub-Band Class" short_name="Sub-Band Class" systems="UMTS" type="string"/>
+	Line 518:     <parameter id="10105" name="Sub-Band Class" short_name="Sub-Band Class" systems="UMTS" type="string"/>
+	Line 578:     <parameter id="20003" name="Band" short_name="Band" size="20" systems="CDMA" type="string">
+	Line 578:     <parameter id="20003" name="Band" short_name="Band" size="20" systems="CDMA" type="string">
+	Line 720:     <parameter id="20106" name="Sub-Band Class" short_name="Sub-Band Class" systems="CDMA" type="string"/>
+	Line 720:     <parameter id="20106" name="Sub-Band Class" short_name="Sub-Band Class" systems="CDMA" type="string"/>
+	Line 761:     <parameter id="30001" name="Band" size="20" systems="GSM" type="string" unit="MHz">
+	Line 810:     <parameter id="30031" name="Neighbor Band" parent="30029" short_name="Band" systems="GSM" type="string_array"/>
+	Line 810:     <parameter id="30031" name="Neighbor Band" parent="30029" short_name="Band" systems="GSM" type="string_array"/>
+	Line 818:         <parameter id="30037" name="BA Band" short_name="Band" systems="GSM" type="string_array" store_all="true"/>
+	Line 818:         <parameter id="30037" name="BA Band" short_name="Band" systems="GSM" type="string_array" store_all="true"/>
+	Line 836:     <parameter id="30048" name="Trace BA Band" short_name="Band" systems="GSM" type="string_array"/>
+	Line 836:     <parameter id="30048" name="Trace BA Band" short_name="Band" systems="GSM" type="string_array"/>
+	Line 901:     <parameter id="30107" name="Sub-Band Class" short_name="Sub-Band Class" systems="GSM" type="string"/>
+	Line 901:     <parameter id="30107" name="Sub-Band Class" short_name="Sub-Band Class" systems="GSM" type="string"/>
+	Line 926:         <!-- <parameter id="210003" name="Bandwidth" systems="DMR" type="int_array" storage="scanner" /> -->
+	Line 937:         <!-- <parameter id="211003" name="Bandwidth" systems="P25" type="int_array" storage="scanner" />-->
+	Line 971:         <!-- <parameter id="212003" name="Bandwidth" systems="TETRA" type="int_array" storage="scanner" /> -->
+	Line 984:     <parameter id="60003" name="Band" short_name="Band" size="20" systems="EVDO" type="string">
+	Line 984:     <parameter id="60003" name="Band" short_name="Band" size="20" systems="EVDO" type="string">
+	Line 1106:     <parameter id="70006" max="20" min="1" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="LTE" type="real" unit="MHz">
+	Line 1106:     <parameter id="70006" max="20" min="1" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="LTE" type="real" unit="MHz">
+	Line 1109:     <parameter id="70007" max="20" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="LTE" type="real" unit="MHz">
+	Line 1109:     <parameter id="70007" max="20" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="LTE" type="real" unit="MHz">
+	Line 1127:     <parameter id="70018" name="Band" short_name="Band" size="20" systems="LTE" type="string">
+	Line 1127:     <parameter id="70018" name="Band" short_name="Band" size="20" systems="LTE" type="string">
+	Line 1264:         <parameter id="70208" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1264:         <parameter id="70208" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1266:         <parameter id="70206" max="20" min="1" name="Bandwidth Downlink" short_name="BW DL" systems="LTE" type="real_array" unit="MHz"/>
+	Line 1296:     <parameter id="70104" name="Wideband CQI CW0" short_name="Wideband CQI CW0" systems="LTE" type="int">
+	Line 1296:     <parameter id="70104" name="Wideband CQI CW0" short_name="Wideband CQI CW0" systems="LTE" type="int">
+	Line 1299:     <parameter id="70105" name="Wideband CQI CW1" short_name="Wideband CQI CW1" systems="LTE" type="int">
+	Line 1299:     <parameter id="70105" name="Wideband CQI CW1" short_name="Wideband CQI CW1" systems="LTE" type="int">
+	Line 1327:         <parameter id="70211" name="PDSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1327:         <parameter id="70211" name="PDSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1373:         <parameter id="70210" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1373:         <parameter id="70210" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1406:         <parameter id="70213" name="PUSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1406:         <parameter id="70213" name="PUSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1479:         <parameter id="70224" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1479:         <parameter id="70224" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1481:         <parameter id="70226" max="20" min="1" name="Bandwidth Downlink" short_name="BW DL" systems="LTE" type="real_array" unit="MHz"/>
+	Line 1539:         <parameter id="71061" name="Sub Bands Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1540:         <parameter id="71062" name="Sub Band Channel Condition" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1541:         <parameter id="71063" name="Sub Band ECQI 1st Layer Cl" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1542:         <parameter id="71064" name="Sub Band ECQI 1st Layer Ol" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1543:         <parameter id="71065" name="Sub Band ECQI 2nd Layer Cl1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1544:         <parameter id="71066" name="Sub Band ECQI 2nd Layer Cl2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1545:         <parameter id="71067" name="Sub Band ECQI 2nd Layer Ol1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1546:         <parameter id="71068" name="Sub Band ECQI 2nd Layer Ol2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1547:         <parameter id="71069" name="Sub Band Est Tput 1st Layer Cl" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1548:         <parameter id="71070" name="Sub Band Est Tput 1st Layer Ol" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1549:         <parameter id="71071" name="Sub Band Est Tput 2nd Layer Cl1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1550:         <parameter id="71072" name="Sub Band Est Tput 2nd Layer Cl2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1551:         <parameter id="71073" name="Sub Band Est Tput 2nd Layer Ol1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1552:         <parameter id="71074" name="Sub Band Est Tput 2nd Layer Ol2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1553:         <parameter id="71075" name="Sub Band RF Paths" systems="LTE" type="null" storage="scanner" ui="true"/>
+	Line 1554:         <parameter id="71076" name="Sub Band RF Paths Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1555:         <parameter id="71077" name="Sub Band RF Path Idx" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1556:         <parameter id="71078" name="Sub Band RF Path RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1557:         <parameter id="71079" name="Sub Band RF Path RSRQ" systems="LTE" type="real_array" unit="dB" min="-20" max="0" storage="scanner" ui="true"/>
+	Line 1558:         <parameter id="71080" name="Sub Band RF Path SINR" systems="LTE" type="real_array" unit="dB" min="-20" max="30" storage="scanner" ui="true"/>
+	Line 1575:         <parameter id="71097" name="Sub Band RF Path RSSI" systems="LTE" type="real_array" storage="scanner" ui="true"/>
+	Line 1580:         <parameter id="71102" name="Sub Band Config Start" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1581:         <parameter id="71103" name="Sub Band Config Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1582:         <parameter id="71104" name="Sub Band Config Size" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1587:         <parameter id="71109" name="RSSI Bandwidth" systems="LTE" type="real_array" unit="MHz" storage="scanner" ui="true"/>
+	Line 1609:         <parameter id="71130" name="Sub Band Est Tput Layer L2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1610:         <parameter id="71131" name="Sub Band Est Tput Layer L3" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1611:         <parameter id="71132" name="Sub Band Est Tput Layer L4" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1612:         <parameter id="71133" name="Sub Band ECQI L3 Cli 01" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1613:         <parameter id="71134" name="Sub Band ECQI L3 Cli 02" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1614:         <parameter id="71135" name="Sub Band ECQI L3 Cli 03" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1615:         <parameter id="71136" name="Sub Band ECQI L4 Cli 01" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1616:         <parameter id="71137" name="Sub Band ECQI L4 Cli 02" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1617:         <parameter id="71138" name="Sub Band ECQI L4 Cli 03" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1765:     <parameter id="71010" name="Sub Bands" systems="LTE" type="table" table_size="10" storage="scanner">
+	Line 1770:         <parameter id="71014" name="Sub Band Index" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1861:         <parameter id="73003" name="Resolution Band Width" systems="LTE" type="real_array" unit="dB" storage="scanner"/>
+	Line 1919: 	<parameter id="80027" name="Band" systems="Wi-Fi" type="string"/>
+	Line 1926:         <parameter id="81002" name="Bandwidth" systems="Wi-Fi" type="int_array" storage="scanner"/>
+	Line 1934:         <parameter id="81010" name="Band" systems="Wi-Fi" type="int_array" storage="scanner" ui="true"/>
+	Line 2003:     <parameter id="140003" name="Band Code" systems="*" type="int" storage="scanner"/>
+	Line 2004:     <!-- <parameter id="140004" name="Band Name" systems="*" type="string" storage="scanner"/> NOTE: Retired, use BandId = 20 -->
+	Line 2004:     <!-- <parameter id="140004" name="Band Name" systems="*" type="string" storage="scanner"/> NOTE: Retired, use BandId = 20 -->
+	Line 2019:     <parameter id="140013" name="Band Id Number" short_name="Band Id" systems="*" type="int" storage="scanner"/>
+	Line 2019:     <parameter id="140013" name="Band Id Number" short_name="Band Id" systems="*" type="int" storage="scanner"/>
+	Line 2033:     <parameter id="111002" name="Band" systems="GSM,UMTS,CDMA,EVDO,LTE" type="string_array" storage="scanner"/>
+	Line 2042:         <parameter id="120004" name="Resolution Bandwidth" systems="GSM,UMTS,CDMA,EVDO,LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 2057:         <parameter id="130004" name="Resolution Bandwidth" systems="GSM,UMTS,CDMA,EVDO,LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 2096:     <parameter id="180006" name="Band" short_name="Band" size="20" systems="5G" type="string"/>
+	Line 2096:     <parameter id="180006" name="Band" short_name="Band" size="20" systems="5G" type="string"/>
+	Line 2133:     <parameter id="180023" name="Wideband CQI" short_name="Wideband CQI" systems="5G" type="int">
+	Line 2133:     <parameter id="180023" name="Wideband CQI" short_name="Wideband CQI" systems="5G" type="int">
+	Line 2282:     <parameter id="180071" max="800" min="5" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="5G" type="real" unit="MHz">
+	Line 2282:     <parameter id="180071" max="800" min="5" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="5G" type="real" unit="MHz">
+	Line 2285:     <parameter id="180072" max="800" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="5G" type="real" unit="MHz">
+	Line 2285:     <parameter id="180072" max="800" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="5G" type="real" unit="MHz">
+	Line 2293:     <parameter id="180077" name="BWP Bandwidth DL" short_name="BWP Bandwidth DL" systems="5G" type="int" unit="kHz"/>
+	Line 2293:     <parameter id="180077" name="BWP Bandwidth DL" short_name="BWP Bandwidth DL" systems="5G" type="int" unit="kHz"/>
+	Line 2294:     <parameter id="180078" name="BWP Bandwidth UL" short_name="BWP Bandwidth UL" systems="5G" type="int" unit="kHz"/>
+	Line 2294:     <parameter id="180078" name="BWP Bandwidth UL" short_name="BWP Bandwidth UL" systems="5G" type="int" unit="kHz"/>
+Search "band" (105 hits in 1 file of 1 searched)
+  E:\Sdk\echo-core-sdk-apk-v3.2.43\RemoteSDK\RemoteSDK\parameters.config (105 hits)
+	Line 294:     <parameter id="20" name="Band ID" systems="GSM,UMTS,CDMA,AMPS,EVDO,LTE,5G,TDMA" type="string"/>
+	Line 296:     <parameter id="22" name="iPerf Bandwidth" short_name="iPerf BW" systems="*" type="int" unit="bps" group="Tests"/>
+	Line 333:     <parameter id="10010" max="" min="" name="Band" size="20" systems="UMTS" type="string" unit="">
+	Line 518:     <parameter id="10105" name="Sub-Band Class" short_name="Sub-Band Class" systems="UMTS" type="string"/>
+	Line 518:     <parameter id="10105" name="Sub-Band Class" short_name="Sub-Band Class" systems="UMTS" type="string"/>
+	Line 578:     <parameter id="20003" name="Band" short_name="Band" size="20" systems="CDMA" type="string">
+	Line 578:     <parameter id="20003" name="Band" short_name="Band" size="20" systems="CDMA" type="string">
+	Line 720:     <parameter id="20106" name="Sub-Band Class" short_name="Sub-Band Class" systems="CDMA" type="string"/>
+	Line 720:     <parameter id="20106" name="Sub-Band Class" short_name="Sub-Band Class" systems="CDMA" type="string"/>
+	Line 761:     <parameter id="30001" name="Band" size="20" systems="GSM" type="string" unit="MHz">
+	Line 810:     <parameter id="30031" name="Neighbor Band" parent="30029" short_name="Band" systems="GSM" type="string_array"/>
+	Line 810:     <parameter id="30031" name="Neighbor Band" parent="30029" short_name="Band" systems="GSM" type="string_array"/>
+	Line 818:         <parameter id="30037" name="BA Band" short_name="Band" systems="GSM" type="string_array" store_all="true"/>
+	Line 818:         <parameter id="30037" name="BA Band" short_name="Band" systems="GSM" type="string_array" store_all="true"/>
+	Line 836:     <parameter id="30048" name="Trace BA Band" short_name="Band" systems="GSM" type="string_array"/>
+	Line 836:     <parameter id="30048" name="Trace BA Band" short_name="Band" systems="GSM" type="string_array"/>
+	Line 901:     <parameter id="30107" name="Sub-Band Class" short_name="Sub-Band Class" systems="GSM" type="string"/>
+	Line 901:     <parameter id="30107" name="Sub-Band Class" short_name="Sub-Band Class" systems="GSM" type="string"/>
+	Line 926:         <!-- <parameter id="210003" name="Bandwidth" systems="DMR" type="int_array" storage="scanner" /> -->
+	Line 937:         <!-- <parameter id="211003" name="Bandwidth" systems="P25" type="int_array" storage="scanner" />-->
+	Line 971:         <!-- <parameter id="212003" name="Bandwidth" systems="TETRA" type="int_array" storage="scanner" /> -->
+	Line 984:     <parameter id="60003" name="Band" short_name="Band" size="20" systems="EVDO" type="string">
+	Line 984:     <parameter id="60003" name="Band" short_name="Band" size="20" systems="EVDO" type="string">
+	Line 1106:     <parameter id="70006" max="20" min="1" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="LTE" type="real" unit="MHz">
+	Line 1106:     <parameter id="70006" max="20" min="1" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="LTE" type="real" unit="MHz">
+	Line 1109:     <parameter id="70007" max="20" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="LTE" type="real" unit="MHz">
+	Line 1109:     <parameter id="70007" max="20" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="LTE" type="real" unit="MHz">
+	Line 1127:     <parameter id="70018" name="Band" short_name="Band" size="20" systems="LTE" type="string">
+	Line 1127:     <parameter id="70018" name="Band" short_name="Band" size="20" systems="LTE" type="string">
+	Line 1264:         <parameter id="70208" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1264:         <parameter id="70208" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1266:         <parameter id="70206" max="20" min="1" name="Bandwidth Downlink" short_name="BW DL" systems="LTE" type="real_array" unit="MHz"/>
+	Line 1296:     <parameter id="70104" name="Wideband CQI CW0" short_name="Wideband CQI CW0" systems="LTE" type="int">
+	Line 1296:     <parameter id="70104" name="Wideband CQI CW0" short_name="Wideband CQI CW0" systems="LTE" type="int">
+	Line 1299:     <parameter id="70105" name="Wideband CQI CW1" short_name="Wideband CQI CW1" systems="LTE" type="int">
+	Line 1299:     <parameter id="70105" name="Wideband CQI CW1" short_name="Wideband CQI CW1" systems="LTE" type="int">
+	Line 1327:         <parameter id="70211" name="PDSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1327:         <parameter id="70211" name="PDSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1373:         <parameter id="70210" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1373:         <parameter id="70210" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1406:         <parameter id="70213" name="PUSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1406:         <parameter id="70213" name="PUSCH Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1479:         <parameter id="70224" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1479:         <parameter id="70224" name="Band" short_name="Band" systems="LTE" type="string_array"/>
+	Line 1481:         <parameter id="70226" max="20" min="1" name="Bandwidth Downlink" short_name="BW DL" systems="LTE" type="real_array" unit="MHz"/>
+	Line 1539:         <parameter id="71061" name="Sub Bands Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1540:         <parameter id="71062" name="Sub Band Channel Condition" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1541:         <parameter id="71063" name="Sub Band ECQI 1st Layer Cl" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1542:         <parameter id="71064" name="Sub Band ECQI 1st Layer Ol" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1543:         <parameter id="71065" name="Sub Band ECQI 2nd Layer Cl1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1544:         <parameter id="71066" name="Sub Band ECQI 2nd Layer Cl2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1545:         <parameter id="71067" name="Sub Band ECQI 2nd Layer Ol1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1546:         <parameter id="71068" name="Sub Band ECQI 2nd Layer Ol2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1547:         <parameter id="71069" name="Sub Band Est Tput 1st Layer Cl" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1548:         <parameter id="71070" name="Sub Band Est Tput 1st Layer Ol" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1549:         <parameter id="71071" name="Sub Band Est Tput 2nd Layer Cl1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1550:         <parameter id="71072" name="Sub Band Est Tput 2nd Layer Cl2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1551:         <parameter id="71073" name="Sub Band Est Tput 2nd Layer Ol1" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1552:         <parameter id="71074" name="Sub Band Est Tput 2nd Layer Ol2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1553:         <parameter id="71075" name="Sub Band RF Paths" systems="LTE" type="null" storage="scanner" ui="true"/>
+	Line 1554:         <parameter id="71076" name="Sub Band RF Paths Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1555:         <parameter id="71077" name="Sub Band RF Path Idx" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1556:         <parameter id="71078" name="Sub Band RF Path RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1557:         <parameter id="71079" name="Sub Band RF Path RSRQ" systems="LTE" type="real_array" unit="dB" min="-20" max="0" storage="scanner" ui="true"/>
+	Line 1558:         <parameter id="71080" name="Sub Band RF Path SINR" systems="LTE" type="real_array" unit="dB" min="-20" max="30" storage="scanner" ui="true"/>
+	Line 1575:         <parameter id="71097" name="Sub Band RF Path RSSI" systems="LTE" type="real_array" storage="scanner" ui="true"/>
+	Line 1580:         <parameter id="71102" name="Sub Band Config Start" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1581:         <parameter id="71103" name="Sub Band Config Count" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1582:         <parameter id="71104" name="Sub Band Config Size" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1587:         <parameter id="71109" name="RSSI Bandwidth" systems="LTE" type="real_array" unit="MHz" storage="scanner" ui="true"/>
+	Line 1609:         <parameter id="71130" name="Sub Band Est Tput Layer L2" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1610:         <parameter id="71131" name="Sub Band Est Tput Layer L3" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1611:         <parameter id="71132" name="Sub Band Est Tput Layer L4" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1612:         <parameter id="71133" name="Sub Band ECQI L3 Cli 01" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1613:         <parameter id="71134" name="Sub Band ECQI L3 Cli 02" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1614:         <parameter id="71135" name="Sub Band ECQI L3 Cli 03" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1615:         <parameter id="71136" name="Sub Band ECQI L4 Cli 01" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1616:         <parameter id="71137" name="Sub Band ECQI L4 Cli 02" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1617:         <parameter id="71138" name="Sub Band ECQI L4 Cli 03" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1765:     <parameter id="71010" name="Sub Bands" systems="LTE" type="table" table_size="10" storage="scanner">
+	Line 1770:         <parameter id="71014" name="Sub Band Index" systems="LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 1861:         <parameter id="73003" name="Resolution Band Width" systems="LTE" type="real_array" unit="dB" storage="scanner"/>
+	Line 1919: 	<parameter id="80027" name="Band" systems="Wi-Fi" type="string"/>
+	Line 1926:         <parameter id="81002" name="Bandwidth" systems="Wi-Fi" type="int_array" storage="scanner"/>
+	Line 1934:         <parameter id="81010" name="Band" systems="Wi-Fi" type="int_array" storage="scanner" ui="true"/>
+	Line 2003:     <parameter id="140003" name="Band Code" systems="*" type="int" storage="scanner"/>
+	Line 2004:     <!-- <parameter id="140004" name="Band Name" systems="*" type="string" storage="scanner"/> NOTE: Retired, use BandId = 20 -->
+	Line 2004:     <!-- <parameter id="140004" name="Band Name" systems="*" type="string" storage="scanner"/> NOTE: Retired, use BandId = 20 -->
+	Line 2019:     <parameter id="140013" name="Band Id Number" short_name="Band Id" systems="*" type="int" storage="scanner"/>
+	Line 2019:     <parameter id="140013" name="Band Id Number" short_name="Band Id" systems="*" type="int" storage="scanner"/>
+	Line 2033:     <parameter id="111002" name="Band" systems="GSM,UMTS,CDMA,EVDO,LTE" type="string_array" storage="scanner"/>
+	Line 2042:         <parameter id="120004" name="Resolution Bandwidth" systems="GSM,UMTS,CDMA,EVDO,LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 2057:         <parameter id="130004" name="Resolution Bandwidth" systems="GSM,UMTS,CDMA,EVDO,LTE" type="int_array" storage="scanner" ui="true"/>
+	Line 2096:     <parameter id="180006" name="Band" short_name="Band" size="20" systems="5G" type="string"/>
+	Line 2096:     <parameter id="180006" name="Band" short_name="Band" size="20" systems="5G" type="string"/>
+	Line 2133:     <parameter id="180023" name="Wideband CQI" short_name="Wideband CQI" systems="5G" type="int">
+	Line 2133:     <parameter id="180023" name="Wideband CQI" short_name="Wideband CQI" systems="5G" type="int">
+	Line 2282:     <parameter id="180071" max="800" min="5" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="5G" type="real" unit="MHz">
+	Line 2282:     <parameter id="180071" max="800" min="5" name="Bandwidth Downlink" short_name="Bandwidth DL" systems="5G" type="real" unit="MHz">
+	Line 2285:     <parameter id="180072" max="800" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="5G" type="real" unit="MHz">
+	Line 2285:     <parameter id="180072" max="800" min="1" name="Bandwidth Uplink" short_name="Bandwidth UL" systems="5G" type="real" unit="MHz">
+	Line 2293:     <parameter id="180077" name="BWP Bandwidth DL" short_name="BWP Bandwidth DL" systems="5G" type="int" unit="kHz"/>
+	Line 2293:     <parameter id="180077" name="BWP Bandwidth DL" short_name="BWP Bandwidth DL" systems="5G" type="int" unit="kHz"/>
+	Line 2294:     <parameter id="180078" name="BWP Bandwidth UL" short_name="BWP Bandwidth UL" systems="5G" type="int" unit="kHz"/>
+	Line 2294:     <parameter id="180078" name="BWP Bandwidth UL" short_name="BWP Bandwidth UL" systems="5G" type="int" unit="kHz"/>
+Search "cellid" (8 hits in 1 file of 1 searched)
+  E:\Sdk\echo-core-sdk-apk-v3.2.43\RemoteSDK\RemoteSDK\parameters.config (8 hits)
+	Line 324:     <parameter id="10006" name="Cell ID" systems="UMTS" type="int" format="cellid_gsm">
+	Line 552:         <parameter id="11024" name="Cell ID" systems="UMTS" type="int_array" storage="scanner" ui="true" format="cellid_gsm"/>        
+	Line 776:     <parameter id="30008" name="Cell ID" systems="GSM" type="int" format="cellid_gsm">
+	Line 915:         <parameter id="31008" name="Cell ID" systems="GSM" type="int_array" storage="scanner" format="cellid_gsm"/>
+	Line 1256:     <parameter id="70084" max="268435455" min="0" name="E-UTRAN Cell ID" short_name="E-UTRAN Cell ID" systems="LTE" type="int" store_all="true" format="cellid_lte">
+	Line 1585:         <parameter id="71107" name="Cell ID" systems="LTE" type="int_array" storage="scanner" ui="true" format="cellid_lte"/>
+	Line 1656:         <parameter id="74032" name="Cell ID" short_name="CellId" systems="LTE" type="int_array" storage="scanner"/>
+	Line 1756:         <parameter id="160408" name="Cell ID" short_name="CellId" systems="NR" type="int_array" storage="scanner" ui="true"/>
+Search "CID" (0 hits in 0 files of 1 searched)
+Search "rsrp" (48 hits in 1 file of 1 searched)
+  E:\Sdk\echo-core-sdk-apk-v3.2.43\RemoteSDK\RemoteSDK\parameters.config (48 hits)
+	Line 1115:     <parameter id="70009" max="-40" min="-140" name="RSRP" short_name="RSRP" systems="LTE" type="real" unit="dBm"/>
+	Line 1115:     <parameter id="70009" max="-40" min="-140" name="RSRP" short_name="RSRP" systems="LTE" type="real" unit="dBm"/>
+	Line 1122:         <parameter id="70015" max="-40" min="-140" name="Neighbor RSRP" short_name="RSRP" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1122:         <parameter id="70015" max="-40" min="-140" name="Neighbor RSRP" short_name="RSRP" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1150:     <parameter id="70033" max="-40" min="-140" name="RSRP (0)" short_name="RSRP (0)" systems="LTE" type="real" unit="dBm"/>
+	Line 1150:     <parameter id="70033" max="-40" min="-140" name="RSRP (0)" short_name="RSRP (0)" systems="LTE" type="real" unit="dBm"/>
+	Line 1151:     <parameter id="70034" max="-40" min="-140" name="RSRP (1)" short_name="RSRP (1)" systems="LTE" type="real" unit="dBm"/>
+	Line 1151:     <parameter id="70034" max="-40" min="-140" name="RSRP (1)" short_name="RSRP (1)" systems="LTE" type="real" unit="dBm"/>
+	Line 1272:         <parameter id="70092" max="-40" min="-140" name="RSRP" short_name="RSRP" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1272:         <parameter id="70092" max="-40" min="-140" name="RSRP" short_name="RSRP" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1273:         <parameter id="70093" max="-40" min="-140" name="RSRP (0)" short_name="RSRP (0)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1273:         <parameter id="70093" max="-40" min="-140" name="RSRP (0)" short_name="RSRP (0)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1274:         <parameter id="70094" max="-40" min="-140" name="RSRP (1)" short_name="RSRP (1)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1274:         <parameter id="70094" max="-40" min="-140" name="RSRP (1)" short_name="RSRP (1)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1275:         <parameter id="70200" max="-40" min="-140" name="RSRP (2)" short_name="RSRP (2)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1275:         <parameter id="70200" max="-40" min="-140" name="RSRP (2)" short_name="RSRP (2)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1276:         <parameter id="70201" max="-40" min="-140" name="RSRP (3)" short_name="RSRP (3)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1276:         <parameter id="70201" max="-40" min="-140" name="RSRP (3)" short_name="RSRP (3)" systems="LTE" type="real_array" unit="dBm"/>
+	Line 1459:     <parameter id="70192" max="-40" min="-140" name="RSRP (2)" short_name="RSRP (2)" systems="LTE" type="real" unit="dBm"/>
+	Line 1459:     <parameter id="70192" max="-40" min="-140" name="RSRP (2)" short_name="RSRP (2)" systems="LTE" type="real" unit="dBm"/>
+	Line 1460:     <parameter id="70193" max="-40" min="-140" name="RSRP (3)" short_name="RSRP (3)" systems="LTE" type="real" unit="dBm"/>
+	Line 1460:     <parameter id="70193" max="-40" min="-140" name="RSRP (3)" short_name="RSRP (3)" systems="LTE" type="real" unit="dBm"/>
+	Line 1492:         <parameter id="71003" name="RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner"/>
+	Line 1524:         <parameter id="71046" name="Sync PBCH RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1528:         <parameter id="71050" name="Sync PSCH RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1530:         <parameter id="71052" name="Sync SCH RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1556:         <parameter id="71078" name="Sub Band RF Path RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1572:         <parameter id="71094" name="RF Path RSRP" systems="LTE" type="real_array" storage="scanner" ui="true"/>
+	Line 1592:         <parameter id="71114" name="MIMO RSRP" systems="LTE" type="real_array" storage="scanner" ui="true"/>
+	Line 1665:         <parameter id="74041" name="NRS-RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner"/>
+	Line 1669:         <parameter id="74045" name="NSSS-RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner"/>
+	Line 1682:         <parameter id="74304" name="RF Path RSRP" systems="LTE" type="real_array" storage="scanner" ui="true"/>
+	Line 1723:         <parameter id="160204" name="PSS-RSRP" systems="NR" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1726:         <parameter id="160207" name="RSPBCH-RSRP" systems="NR" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1729:         <parameter id="160210" name="SSB-RSRP" systems="NR" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1732:         <parameter id="160213" name="SSS-RSRP" systems="NR" type="real_array" min="-140" max="-40" unit="dB" storage="scanner" ui="true"/>
+	Line 1767:         <parameter id="71011" name="RSRP" systems="LTE" type="real_array" min="-140" max="-40" unit="dB" storage="scanner"/>
+	Line 1797:         <parameter id="72114" name="Multi RSRP" systems="LTE" type="real_array" max="-40" min="-140" unit="dBm" storage="scanner"/>
+	Line 1817:         <parameter id="72213" name="Unicast BCH RSRP" systems="LTE" type="real_array" max="-40" min="-140" unit="dBm" storage="scanner"/>
+	Line 1824:         <parameter id="72220" name="Unicast Cell RSRP" systems="LTE" type="real_array" max="-40" min="-140" unit="dBm" storage="scanner"/>
+	Line 1831:         <parameter id="72227" name="Unicast Primary RSRP" systems="LTE" type="real_array" max="-40" min="-140" unit="dBm" storage="scanner"/>
+	Line 1838:         <parameter id="72234" name="Unicast Secondary RSRP" systems="LTE" type="real_array" max="-40" min="-140" unit="dBm" storage="scanner"/>
+	Line 2090:         <parameter id="180003" max="-40" min="-140" name="Neighbor SS-RSRP" short_name="SS-RSRP" systems="5G" type="real_array" unit="dBm"/>
+	Line 2090:         <parameter id="180003" max="-40" min="-140" name="Neighbor SS-RSRP" short_name="SS-RSRP" systems="5G" type="real_array" unit="dBm"/>
+	Line 2099:     <parameter id="180008" max="-40" min="-140" name="SS-RSRP" short_name="SS-RSRP" systems="5G" type="real" unit="dBm"/>
+	Line 2099:     <parameter id="180008" max="-40" min="-140" name="SS-RSRP" short_name="SS-RSRP" systems="5G" type="real" unit="dBm"/>
+	Line 2148:         <parameter id="180029" max="-40" min="-140" name="SSB-RSRP" short_name="SSB-RSRP" systems="5G" type="real_array" unit="dBm"/>
+	Line 2148:         <parameter id="180029" max="-40" min="-140" name="SSB-RSRP" short_name="SSB-RSRP" systems="5G" type="real_array" unit="dBm"/>

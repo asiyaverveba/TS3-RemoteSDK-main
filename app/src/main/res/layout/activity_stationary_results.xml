@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@drawable/tapas_bg">
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:text="Results"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"/>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="AVG DL:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/avgDlTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="AVG UL:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/avgUlTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="Max DL:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/maxDlTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="Max UL:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/maxUlTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="AVG Ping:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/avgPingTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="MO Call:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/moTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+    <TableRow android:layout_marginBottom="5dp">
+        <TextView
+            android:text="MT Call:"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/mtTextView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white">
+        </TextView>
+    </TableRow>
+</TableLayout>

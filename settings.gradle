@@ -1,0 +1,3 @@
+include ':app'
+include ':redx-release'
+include ':remote-release'

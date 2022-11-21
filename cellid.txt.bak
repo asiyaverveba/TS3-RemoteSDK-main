@@ -1,0 +1,8 @@
+4:     <parameter id="10006" name="Cell ID" systems="UMTS" type="int" format="cellid_gsm">
+	Line 552:         <parameter id="11024" name="Cell ID" systems="UMTS" type="int_array" storage="scanner" ui="true" format="cellid_gsm"/>        
+	Line 776:     <parameter id="30008" name="Cell ID" systems="GSM" type="int" format="cellid_gsm">
+	Line 915:         <parameter id="31008" name="Cell ID" systems="GSM" type="int_array" storage="scanner" format="cellid_gsm"/>
+	Line 1256:     <parameter id="70084" max="268435455" min="0" name="E-UTRAN Cell ID" short_name="E-UTRAN Cell ID" systems="LTE" type="int" store_all="true" format="cellid_lte">
+	Line 1585:         <parameter id="71107" name="Cell ID" systems="LTE" type="int_array" storage="scanner" ui="true" format="cellid_lte"/>
+	Line 1656:         <parameter id="74032" name="Cell ID" short_name="CellId" systems="LTE" type="int_array" storage="scanner"/>
+	Line 1756:         <parameter id="160408" name="Cell ID" short_name="CellId" systems="NR" type="int_array" storage="scanner" ui="true"/>
